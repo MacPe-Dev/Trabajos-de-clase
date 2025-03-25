@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(#e6eef8, #78aee1, #e4dd95);
+    font-family: 'Roboto', sans-serif;
+}
+
+.main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.title{
+    font-size: 2.8em;
+    color: #215183;
+}
+
+.paragraph{
+    width: 60vw;
+    font-size: 1.2em;
+    text-align: center;
+    color: #14273d;
+}
+
+.container{
+    display: flex;
+    width: 90vw;
+}
+
+.panel{
+    border-radius: 50px;
+    margin: 10px;
+    position: relative;
+    height: 60vh;
+    flex: 0.5;
+    cursor: pointer;
+    transition: all 700ms ease-in;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.panel h3{
+    color: #fff;
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+    opacity: 0;
+}
+
+.panel.active{
+    flex: 5;
+}
+
+.panel.active h3{
+    opacity: 1;
+    transition: opacity 0.3s ease-in 0.4s;
+}
+.uno{
+    background-image: url("../img/ai-generated-7962674_1280.jpg")
+}
+.dos{
+    background-image: url("../img/technology-298256_1280.jpg")
+}
+.tres{
+    background-image: url("../img/cyber-security-1784985_1280.webp")
+}
+.cuatro{
+    background-image: url("../img/computer-5088593_1280.jpg")
+}
+.cinco{
+    background-image: url("../img/ai-generated-7962674_1280.jpg")
+}   
+.seis{
+    background-image: url("../img/smartphone-3179295_1280.jpg")
+}
+.siete{
+    background-image: url("../img/mark-516277_1280.webp")
+}
+

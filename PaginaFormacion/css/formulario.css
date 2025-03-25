@@ -1,0 +1,19 @@
+.form-control:disabled {
+    background-color: #f8f9fa;
+    cursor: not-allowed;
+}
+.form-control.valid {
+    border-color: #198754;
+    background-color: #f8fff8;
+}
+.form-control.invalid {
+    border-color: #dc3545;
+    background-color: #fff8f8;
+}
+.form-control.active {
+    border-color: #ffc107;
+    background-color: #fffff8;
+}
+.form-check-input:disabled {
+    cursor: not-allowed;
+}
